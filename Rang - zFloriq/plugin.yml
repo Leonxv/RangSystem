@@ -1,0 +1,16 @@
+name: RangSystem
+main: zFloriq\Main\Rang
+author: zFloriq
+version: 1.0
+api: 4.0.0
+commands:
+    gg:
+        description: "Group Command"
+    nick:
+        description: "Nick Command"
+permissions:
+ nick:
+  description: permission
+  children:
+   nick.set:
+    description: permission
